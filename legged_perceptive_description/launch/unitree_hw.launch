@@ -28,7 +28,7 @@
     <!--        </include>-->
     <!--    </group>-->
 
-    <include file="$(find legged_perceptive_description)/launch/mid360.launch"/>
+    <!-- <include file="$(find legged_perceptive_description)/launch/mid360.launch"/> -->
 
     <group ns="tracking_camera">
         <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
